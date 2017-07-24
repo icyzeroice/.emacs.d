@@ -1,0 +1,8 @@
+* My Config Files of Emacs
+** Attention
+  - Learning...
+
+** Reference
+  - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为Emacs高手]]
+  - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][Master Emacs in 21 Days]]
+  - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][Emacs大师purcell的配置]]

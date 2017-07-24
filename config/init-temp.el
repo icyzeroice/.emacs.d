@@ -8,8 +8,10 @@
 ;; high-lighted current line
 ;; (global-hl-line-mode 1)
 
-;; close automatic saving files
+;; close automatic backup and saving files
 (setq make-backup-files nil)
+(setq auto-save-default nil)
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
