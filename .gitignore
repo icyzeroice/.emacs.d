@@ -1,4 +1,11 @@
+
+# .emacs.d: edit by myself
 auto-save-list
+themes
+
+# create by application
+.cask
 bookmarks
 elpa/
 recentf
+tutorial

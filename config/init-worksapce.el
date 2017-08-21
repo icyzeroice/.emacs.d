@@ -1,4 +1,3 @@
-
 ;; tabs are evil
 (set-default indent-tabs-mode nil)
 
