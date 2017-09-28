@@ -1,6 +1,7 @@
 * My Config Files of Emacs
 ** Attention
   - Learning...
+  - Turn to spacemacs...
 
 ** Reference
   - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为Emacs高手]]
