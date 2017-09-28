@@ -1,11 +1,12 @@
+;; init.el
 (package-initialize)
 
 ;; (add-to-list 'load-path (expand-file-name "config" user-emacs-directory))
 (add-to-list 'load-path "~/.emacs.d/config")
 
 ;; Package Management
+
 ;;----------------------------------------
-(require 'init-temp)
 
 (require 'init-company)
 (require 'init-package)

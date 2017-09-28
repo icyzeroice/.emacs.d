@@ -9,3 +9,6 @@ bookmarks
 elpa/
 recentf
 tutorial
+*~
+\#*
+\.?*~
