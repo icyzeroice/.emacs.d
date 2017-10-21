@@ -1,9 +1,21 @@
-* My Config Files of Emacs
-** Attention
+#+TITLE: My Config Files of Emacs
+#+AUTHOR: Ice Zero
+
+* Description
+
+After using Spacemacs for couple of days, I realized that the Spacemacs which is out of box doesn't suit me.
+
+What I need is to learn Emacs from the original state.
+
+Let me restart the repository belonging to myself!
+
+* Attention
+
   - Learning...
   - Turn to spacemacs...
 
-** Reference
+* Reference
+
   - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为Emacs高手]]
   - [[http://book.emacs-china.org/][Master Emacs in 21 Days]]
   - [[https://github.com/purcell/emacs.d][Emacs大师purcell的配置]]
