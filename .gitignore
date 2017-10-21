@@ -1,14 +1,16 @@
-
-# .emacs.d: edit by myself
-auto-save-list
-themes
-
-# create by application
-.cask
-bookmarks
-elpa/
-recentf
-tutorial
+#### emacs
 *~
 \#*
 \.?*~
+elpa/
+.cask
+recentf/
+tutorial/
+bookmarks/
+auto-save-list/
+
+#### JetBrains
+.idea/
+
+#### vscode
+.vscode/
