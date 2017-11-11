@@ -1,4 +1,7 @@
 # SUMMARY
 
-- [Basic Operation]["./basic-operation.md"]
-- [Emacs Lisp]["./elisp.md"]
+* [Basic Operation](./emacs-basic.md)
+
+* [Emacs Lisp](./emacs-lisp-basic.md)
+
+* [Emacs editor config](./emacs-editor-config.md)

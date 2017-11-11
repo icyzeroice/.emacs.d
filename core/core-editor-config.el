@@ -14,3 +14,6 @@
 
 ;; close edit auto backup
 (setq make-backup-files nil)
+
+;; ----------- org-mode ------------
+(setq org-indent-mode t)
