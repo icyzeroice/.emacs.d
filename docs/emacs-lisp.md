@@ -22,11 +22,13 @@
 ##### Common Lisp
 
 [ANSI Common Lisp](http://acl.readthedocs.io/en/latest/)
+[Lisp](http://www.yiibai.com/lisp/)
 
 
 ##### Emacs Lisp
 
 [Emacs Lisp](http://smacs.github.io/)
+[Emacs Lisp Library](https://www.gnu.org/software/emacs/manual/)
 
 
 ##### 定义全局变量
