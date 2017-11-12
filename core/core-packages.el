@@ -21,14 +21,21 @@
     markdown-mode
 ))
 
+(require 'cl)
 ;; TODO: auto install & load packages
-(defun icy-packages-installed-p ()
-  "check the icy/packages list and install the package haven't been installed yet."
-  (loop for pkg in icy/packages
-    when (not (package-installed-p pkg))
-      do (return nil)
-      finally (return t)))
+;; (defun icy-packages-installed-p ()
+;;   "check the icy/packages list and install the package haven't been installed yet."
+;;   (loop for pkg in icy/packages
+;;     when (not (package-installed-p pkg))
+;;       do (return nil)
+;;       finally (return t)))
 
+;; (unless (icy-packages-installed-p)
+;;   (message "%s" "Installing missing packages...")
+;;   (package-refresh-contents)
+;;   (dolist (pkg icy/packages)
+;;     (when (not (package-installed-p pkg)
+;;       (package-install pkg)))))
 
 
 ;; output
