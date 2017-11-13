@@ -1,5 +1,8 @@
 ;; core-editor-config.el --- editor simple config
 
+;; load theme
+;; (load-theme 'atom-one-dark t)
+
 ;; close init welcome screen
 (setq inhibit-splash-screen 1)
 
