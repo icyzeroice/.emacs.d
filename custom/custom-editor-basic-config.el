@@ -11,6 +11,10 @@
 (global-linum-mode 1)
 (setq make-backup-files nil)
 
+;; encode
+(setq default-buffer-file-coding-system 'utf-8)
+(prefer-coding-system 'utf-8)
+
 ;; ----------- org-mode ------------
 (setq org-indent-mode t)
 
