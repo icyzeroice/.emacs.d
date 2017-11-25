@@ -30,13 +30,14 @@
 ;;       do (return nil)
 ;;       finally (return t)))
 
+;; (icy-packages-installed-p)
+
 ;; (unless (icy-packages-installed-p)
 ;;   (message "%s" "Installing missing packages...")
 ;;   (package-refresh-contents)
 ;;   (dolist (pkg icy/packages)
 ;;     (when (not (package-installed-p pkg)
 ;;       (package-install pkg)))))
-
 
 ;; output
 (provide 'core-packages)

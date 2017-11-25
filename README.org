@@ -1,6 +1,28 @@
 #+TITLE: My Config Files of Emacs
 #+AUTHOR: Ice Zero
 
+* NEXT
+
+** TODO [#A] packages-manage
+
+- manage emacs packages and extends
+- auto download packages and extends when they are not installed
+
+** TODO [#A] web-front-end-development-env
+
+- html
+- css
+- javascript
+- typescript
+- js indent for 2 whitespace
+- html css indent for 4 whitespace
+
+** TODO [#B] themes-manage
+
+- manage themes packages
+- auto download theme packages when they are not downloaded
+
+
 * Description
 
 After using Spacemacs for couple of days, I realized that the Spacemacs which is out of box doesn't suit me.
@@ -8,6 +30,7 @@ After using Spacemacs for couple of days, I realized that the Spacemacs which is
 What I need is to learn Emacs from the original state.
 
 Let me restart the repository belonging to myself!
+
 
 * Process
 
