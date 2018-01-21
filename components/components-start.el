@@ -1,7 +1,7 @@
 ;; components-start.el --- main file for components
 
 ;; ---------- Org-Mode ----------
-
+(icy-load-file "components/orgmode/orgmode-init.el")
 
 ;; ------------ HTML ------------
 

@@ -10,6 +10,12 @@
 
 (icy-add-load-path "core/")
 (icy-add-load-path "components/")
+(icy-add-load-path "components/css")
+(icy-add-load-path "components/html")
+(icy-add-load-path "components/javascript")
+(icy-add-load-path "components/orgmode")
+(icy-add-load-path "components/octave")
+(icy-add-load-path "components/python")
 (icy-add-load-path "custom/")
 (icy-add-load-path "plugins/")
 
@@ -17,3 +23,6 @@
 (icy-load-file "components/components-start.el")
 (icy-load-file "plugins/plugins-start.el")
 (icy-load-file "custom/custom-start.el")
+
+;; hot load
+(global-auto-revert-mode 1)

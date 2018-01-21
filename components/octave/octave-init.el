@@ -6,6 +6,7 @@
 (setq auto-mode-alist
   (cons '("\\.m\\'" . octave-mode) auto-mode-alist))
 
+;; auto launch "run-octave" the moment that open a ".m" file
 (add-hook 'octave-mode-hook
   (lambda ()
     (abbrev-mode 1)
