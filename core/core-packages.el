@@ -1,5 +1,7 @@
 
 (package-initialize)
+
+;; package-list from remote address
 (setq package-archives '(
     ("gnu" . "https://elpa.emacs-china.org/gnu/")
     ("melpa" . "https://elpa.emacs-china.org/melpa/")
@@ -39,5 +41,5 @@
 ;;     (when (not (package-installed-p pkg)
 ;;       (package-install pkg)))))
 
-;; output
+;; @export
 (provide 'core-packages)
