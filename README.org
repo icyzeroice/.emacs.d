@@ -1,6 +1,14 @@
 #+TITLE: My Config Files of Emacs
 #+AUTHOR: Ice Zero
 
+* Usage
+
+After cloning this repo, you need to clone the submodule just like below.
+
+#+BEGIN_SRC shell
+$ git submodule update --init --recursize
+#+END_SRC
+
 * NEXT
 
 ** TODO [#A] packages-manage
