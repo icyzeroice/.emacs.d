@@ -8,7 +8,7 @@
     ("org" . "https://elpa.emacs-china.org/org/")))
 
 
-(defvar icy/packages '(
+(defvar iz/packages '(
     ;; ----- Auto Completion -----
     company
     ;; ----- Better Editor -----
@@ -23,10 +23,13 @@
     markdown-mode
 ))
 
+;; cl -- Common Lisp Extension
 (require 'cl)
+
+
 ;; TODO: auto install & load packages
-;; (defun icy-packages-installed-p ()
-;;   "check the icy/packages list and install the package haven't been installed yet."
+;; (defun iz-packages-installed-p ()
+;;   "check the iz/packages list and install the package haven't been installed yet."
 ;;   (loop for pkg in icy/packages
 ;;     when (not (package-installed-p pkg))
 ;;       do (return nil)
@@ -34,12 +37,12 @@
 
 ;; (icy-packages-installed-p)
 
-;; (unless (icy-packages-installed-p)
+;; (unless (iz-packages-installed-p)
 ;;   (message "%s" "Installing missing packages...")
 ;;   (package-refresh-contents)
-;;   (dolist (pkg icy/packages)
+;;   (dolist (pkg iz/packages)
 ;;     (when (not (package-installed-p pkg)
 ;;       (package-install pkg)))))
 
 ;; @export
-(provide 'core-packages)
+(provide 'core-packages-manage)
