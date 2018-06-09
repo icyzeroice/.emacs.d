@@ -12,11 +12,11 @@
 
 * SUMMARY
 
-** [[emacs-basic.org][Basic Operation]]
+1. [[emacs-basic.org][Basic Operation]]
 
-** [[emacs-lisp.org][Emacs Lisp]]
+2. [[emacs-lisp.org][Emacs Lisp]]
 
-** [[emacs-editor-config.org][Emacs Editor Config]]
+3. [[emacs-editor-config.org][Emacs Editor Config]]
 
 
 * Reference
