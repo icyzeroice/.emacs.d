@@ -3,39 +3,39 @@
 
 * Introduction
 
- + Emacs ———— 神之编辑器
--|
- + Vim ———— 编辑器之神
+Emacs ———— 神之编辑器
+
+Vim ———— 编辑器之神
 
 被合称为 Hacker 两大神器
 
 
 * SUMMARY
 
-1. [[emacs-basic.org][Basic Operation]]
+- [[emacs-basic.org][Basic Operation]]
 
-2. [[emacs-lisp.org][Emacs Lisp]]
+- [[emacs-lisp.org][Emacs Lisp]]
 
-3. [[emacs-editor-config.org][Emacs Editor Config]]
+- [[emacs-editor-config.org][Emacs Editor Config]]
 
 
 * Reference
 
 ** 入门教程
 
-  - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为Emacs高手]]
+- [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为Emacs高手]]
 
-  - [[http://book.emacs-china.org/][Master Emacs in 21 Days]]
+- [[http://book.emacs-china.org/][Master Emacs in 21 Days]]
 
 
 ** 进阶
 
-  - [[http://smacs.github.io/elisp/][水木社区 Emacs Lisp 简明教程]]
+- [[http://smacs.github.io/elisp/][水木社区 Emacs Lisp 简明教程]]
 
 
 ** 其他
 
-  - [[https://github.com/purcell/emacs.d][Emacs大师purcell的配置]]
+- [[https://github.com/purcell/emacs.d][Emacs大师purcell的配置]]
 
-  - [[http://spacemacs.org/][现在很火的 Spacemacs 配置]]
+- [[http://spacemacs.org/][现在很火的 Spacemacs 配置]]
 
