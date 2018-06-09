@@ -3,9 +3,9 @@
 
 * Introduction
 
- |- Emacs ———— 神之编辑器
+ + Emacs ———— 神之编辑器
 -|
- |- Vim ———— 编辑器之神
+ + Vim ———— 编辑器之神
 
 被合称为 Hacker 两大神器
 
