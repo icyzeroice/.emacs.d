@@ -1,3 +1,4 @@
+;; core/packages/core-packages-manager.el
 
 (package-initialize)
 
@@ -26,23 +27,24 @@
 ;; cl -- Common Lisp Extension
 (require 'cl)
 
+(loop for pkg in iz/packages
+     do (print (package-installed-p pkg)))
 
 ;; TODO: auto install & load packages
-;; (defun iz-packages-installed-p ()
-;;   "check the iz/packages list and install the package haven't been installed yet."
-;;   (loop for pkg in icy/packages
-;;     when (not (package-installed-p pkg))
-;;       do (return nil)
-;;       finally (return t)))
+(defun iz-packages-installed-p()
+  "check the iz/packages list"
+  (loop for pkg in iz/packages
+	when (not (package-installed-p pkg))
+	do (return nil)
+	finally (return t)))
 
-;; (icy-packages-installed-p)
-
-;; (unless (iz-packages-installed-p)
-;;   (message "%s" "Installing missing packages...")
-;;   (package-refresh-contents)
-;;   (dolist (pkg iz/packages)
-;;     (when (not (package-installed-p pkg)
-;;       (package-install pkg)))))
+;; if (iz-packages-installed-p) is nil, do body.
+(unless (iz-packages-installed-p)
+  (message "%s" "Installing missing packages...")
+  (package-refresh-contents)
+  (dolist (pkg iz/packages)
+    (when (not (package-installed-p pkg))
+      (package-install pkg))))
 
 ;; @export
-(provide 'core-packages-manage)
+(provide 'core-packages-manager)

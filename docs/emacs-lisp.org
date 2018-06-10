@@ -1,39 +1,39 @@
-# Emacs Lisp
+#+TITLE: Emacs Lisp
 
-### Lisp 相关快捷键
+* Lisp 相关快捷键
 
 首先我们要知道三个快捷键：
 
-* C-h k
+- C-h k
 
-* C-h f
+- C-h f
 
-* C-h v 
+- C-h v 
 
 这三个快捷键，一个是用来查询关键词（key）的，一个是用来查询函数（function）说明的，还一个是用来查询变量（variable）说明的，相当于 Python 中的 help()，Matlab 中的 help...
 
 然后我们要知道两个用来将 Emacs-Lisp 执行到光标处的快捷键：
 
-* C-x C-e
+- C-x C-e
 
-* C-j
+- C-j
 
 
-### Lisp 基础语法
+* Lisp 基础语法
 
-##### Common Lisp
+** Common Lisp
 
 [ANSI Common Lisp](http://acl.readthedocs.io/en/latest/)
 [Lisp](http://www.yiibai.com/lisp/)
 
 
-##### Emacs Lisp
+** Emacs Lisp
 
 [Emacs Lisp](http://smacs.github.io/)
 [Emacs Lisp Library](https://www.gnu.org/software/emacs/manual/)
 
 
-##### 定义全局变量
+** 定义全局变量
 
 defvar
 
