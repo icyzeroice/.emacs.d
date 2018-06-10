@@ -50,7 +50,6 @@ Let me restart the repository belonging to myself!
 * Reference
 
   - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为 Emacs 高手]]
-  - [[http://book.emacs-china.org/][Master Emacs in 21 Days]]
   - [[https://github.com/emacs-china/Spacemacs-rocks][Github - Master Emacs in 21 Days]]
   - [[https://github.com/purcell/emacs.d][Emacs 大师 purcell 的配置]]
   - [[http://spacemacs.org/][现在很火的 Spacemacs 配置]]

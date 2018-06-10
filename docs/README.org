@@ -25,7 +25,7 @@ Vim ———— 编辑器之神
 
 - [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][一年成为Emacs高手]]
 
-- [[http://book.emacs-china.org/][Master Emacs in 21 Days]]
+- [[https://github.com/emacs-china/Spacemacs-rocks][GitHub - Master Emacs in 21 Days]]
 
 
 ** 进阶
