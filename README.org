@@ -3,6 +3,20 @@
 
 * Usage
 
+- Linux & Mac OS
+
+#+BEGIN_SRC
+~/.emacs.d
+#+END_SRC
+
+- Windows
+
+#+BEGIN_SRC
+C:\Users\{Your Name}\AppData\Roaming\.emacs.d
+#+END_SRC
+
+(Remember to delete `.emacs`)
+
 After cloning this repo, you need to clone the submodule just like below.
 
 #+BEGIN_SRC shell
