@@ -3,6 +3,9 @@
 ;; ---------- Org-Mode ----------
 (iz-load-file "components/orgmode/orgmode-init.el")
 
+;; ------------ C++ -------------
+(iz-load-file "components/cpp/cpp-init.el")
+
 ;; ------------ HTML ------------
 
 ;; ------------ CSS -------------

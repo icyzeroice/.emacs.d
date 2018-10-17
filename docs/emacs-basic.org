@@ -40,6 +40,9 @@
 |---------+-----------------------------------------|
 | C-x C-s | 保存 Dired 的修改                       |
 
+* Org mode
+
+- [[https://orgmode.org/][Org mode official site & document]]
 
 * 参考
 
