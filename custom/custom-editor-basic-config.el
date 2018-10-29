@@ -24,4 +24,8 @@
 ;; only one dired mode buffer
 ;; (put 'dired-find-alternate-file 'disable nil)
 
+;; about editing
+(setq default-tab-width 2)
+(setq indent-tabs-mode nil)
+
 (provide 'custom-editor-basic-config)

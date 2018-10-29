@@ -8,6 +8,8 @@ recentf
 tutorial/
 bookmarks/
 auto-save-list/
+games/
+session.*
 
 #### JetBrains
 .idea/
