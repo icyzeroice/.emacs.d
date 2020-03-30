@@ -39,3 +39,7 @@ Vim ———— 编辑器之神
 
 - [[http://spacemacs.org/][现在很火的 Spacemacs 配置]]
 
+- [[https://github.com/seagle0128/.emacs.d][Centaur Emacs - A Fancy and Fast Emacs Configuration]]
+
+- [[https://github.com/hlissner/doom-emacs][Doom Emacs - An Emacs configuration for the stubborn martian vimmer]]
+
