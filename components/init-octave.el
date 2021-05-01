@@ -14,4 +14,6 @@
     (run-octave 1)
     (if (eq window-system 'x)
         (font-lock-mode 1))))
- 
+
+
+(provide 'init-octave)
