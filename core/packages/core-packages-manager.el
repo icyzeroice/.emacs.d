@@ -9,7 +9,7 @@
     ("org" . "https://elpa.emacs-china.org/org/")))
 
 
-(defvar iz/packages '(
+(defvar hyouka/packages '(
     ;; ----- Auto Completion -----
     company
     ;; ----- Better Editor -----
@@ -25,24 +25,26 @@
 ))
 
 ;; cl -- Common Lisp Extension
+;; cl is deprecated
+;; cl-lib is alternative
 (require 'cl)
 
-(loop for pkg in iz/packages
+(loop for pkg in hyouka/packages
      do (print (package-installed-p pkg)))
 
 ;; TODO: auto install & load packages
-(defun iz-packages-installed-p()
-  "check the iz/packages list"
-  (loop for pkg in iz/packages
+(defun hyouka/packages-installed-p()
+  "check the hyouka/packages list"
+  (loop for pkg in hyouka/packages
 	when (not (package-installed-p pkg))
 	do (return nil)
 	finally (return t)))
 
-;; if (iz-packages-installed-p) is nil, do body.
-(unless (iz-packages-installed-p)
+;; if (hyouka/packages-installed-p) is nil, do body.
+(unless (hyouka/packages-installed-p)
   (message "%s" "Installing missing packages...")
   (package-refresh-contents)
-  (dolist (pkg iz/packages)
+  (dolist (pkg hyouka/packages)
     (when (not (package-installed-p pkg))
       (package-install pkg))))
 
